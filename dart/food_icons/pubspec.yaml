@@ -24,9 +24,7 @@ flutter:
   fonts:
   - family:  Food
     fonts:
-      - asset: ../../font/Food.ttf
-  assets:
-    - ../../font/config.json
+      - asset: ./font/Food.ttf
 
   # To add assets to your package, add an assets section, like this:
   # assets:
