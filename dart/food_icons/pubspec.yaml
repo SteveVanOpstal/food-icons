@@ -22,9 +22,9 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   fonts:
-  - family:  Food
-    fonts:
-      - asset: ./font/Food.ttf
+   - family:  Food
+     fonts:
+      - asset: fonts/Food.ttf
 
   # To add assets to your package, add an assets section, like this:
   # assets:
