@@ -15,6 +15,18 @@ A food icon library
 
 ## Usage
 
+add Food.ttf font to `pubspec.yaml`
+
+```yaml
+flutter:
+  fonts:
+   - family:  Food
+     fonts:
+      - asset: packages/food_icons/Food.ttf
+```
+
+use a static icon
+
 ```dart
 class MyApp extends StatelessWidget {
   @override
@@ -23,6 +35,8 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+find an icon by name
 
 ```dart
 class MyApp extends StatelessWidget {
