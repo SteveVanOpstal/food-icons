@@ -1,7 +1,6 @@
-name: food_icons
-description: A new Flutter package project.
-version: 0.0.4
-homepage:
+name: food_icons_example
+description: A new Flutter application.
+version: 0.0.1
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -10,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  food_icons: ^0.0.3
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +21,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+   - family:  Food
+     fonts:
+      - asset: packages/food_icons/Food.ttf
 
   # To add assets to your package, add an assets section, like this:
   # assets:
