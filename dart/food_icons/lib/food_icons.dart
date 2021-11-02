@@ -37,6 +37,16 @@ class FoodIcons {
   static const IconData wisk =
       IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  static final List<IconData> icons = [
+    FoodIcons.hand,
+    FoodIcons.bowl,
+    FoodIcons.knife,
+    FoodIcons.oven,
+    FoodIcons.spoon,
+    FoodIcons.tray,
+    FoodIcons.wisk,
+  ];
+
   static IconData getIcon(String name) {
     switch (name) {
       case 'hand':
